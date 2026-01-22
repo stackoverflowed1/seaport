@@ -405,6 +405,13 @@ contract ExampleContractOfferer is ContractOffererInterface {
 }
 ```
 
+**Security Note:**
+
+This `ExampleContractOfferer` is intentionally simplified and is **not** a secure
+reference implementation. Production contract offerers must carefully consider
+authorization logic, reentrancy risks, state consistency, and validation of all
+external inputs.
+
 Remember to create a [Seaport Improvement Protocol (SIP)](https://github.com/ProjectOpenSea/SIPs) proposal for any novel Seaport app.
 
 ## Bulk Order Creation
